@@ -44,6 +44,7 @@ class ViewController: UIViewController {
         oldBalloonName = balloonArray[index].balloonImage
         imageView.image = UIImage(named: balloonArray[index].balloonImage)
         balloonLabel.text = "\(balloonArray[index].balloonNumber)"
+        balloonLabel.hidden = false
     }
     
     override func viewDidLoad()
